@@ -1,6 +1,6 @@
 body {
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 header {
@@ -75,11 +75,12 @@ h1.name {
 
 .work-experience-list h3 {
     margin-block-start: 0.83em;
-    margin-block-end: 0;
+    margin-block-end: 0.2em;
+    font-style: italic;
 }
 
 .work-experience-list h4 {
-    margin-block-start: 0;
+    margin-block-start: 0.2em;
     margin-block-end: 1em;
     font-weight: normal;
     font-size: 1.1em;
@@ -101,6 +102,10 @@ h1.name {
 
 .freelance-work > li > ul > li {
     padding-bottom: 0.75em;
+}
+
+.freelance-work h4 {
+    margin-block-end: 0;
 }
 
 .right-side-content ul {
