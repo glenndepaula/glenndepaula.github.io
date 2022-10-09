@@ -64,7 +64,7 @@ h1.name {
     padding-inline-start: 2em;
 }
 
-.work-experience-list {
+.work-experience-list, .freelance-work {
     list-style-type: none;
     padding-left: 0;
 }
